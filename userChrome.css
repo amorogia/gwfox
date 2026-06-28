@@ -5843,4 +5843,16 @@ input[type="search"]:focus-within,
     display: none !important;
   }
 
+  /* Remove the empty space left by hidden window controls */
+  :root {
+    --menu-base-pos: 8px !important;
+  }
+
+  #navigator-toolbox {
+    padding-inline-end: 0 !important;
+  }
+
+  .titlebar-spacer {
+    display: none !important;
+  }
 }
